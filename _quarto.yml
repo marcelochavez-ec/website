@@ -3,12 +3,17 @@ project:
   output-dir: docs
 
 website:
-  title: "website"
+  title: "Blog Marcelo Chávez"
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+        text: Inicio
+      - href: hoja_de_vida.qmd
+        text: Hoja de Vida
+      - href: contacto.qmd
+        text: Contáctame
+      - href: CaracterizacionEcologica.qmd
+        text: Índice Multivariante
 
 format:
   html:
